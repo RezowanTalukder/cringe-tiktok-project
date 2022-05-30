@@ -4,20 +4,35 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div class="cards-list">
+
+        <div class="card 1">
+          <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+          <div class="card_title title-white">
+            <p>Card Title</p>
+          </div>
+        </div>
+
+        <div class="card 2">
+          <div class="card_image">
+            <img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" />
+          </div>
+          <div class="card_title title-white">
+            <p>Card Title</p>
+          </div>
+        </div>
+
+        <div class="card 3">
+          <div class="card_image">
+            <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
+          </div>
+          <div class="card_title">
+            <p>Card Title</p>
+          </div>
+        </div>
+
+
+      </div>
     </div>
   );
 }
